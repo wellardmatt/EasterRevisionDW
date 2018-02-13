@@ -1,0 +1,199 @@
+body{
+	height: 100%;
+}
+.background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	opacity: 0.2;
+	padding: 0;
+}
+.background{
+	height: 100%;
+	width:100%;
+}
+a>img{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+#Logo-Img{
+	height:100%;
+	width: 100%;
+	opacity: 0.7;
+}
+nav{
+	margin:0;
+}
+#header-nav>div{
+	height: 25px;
+}
+#header-nav{
+	background-color: transparent;
+	margin:0;
+	border:0;
+	border-radius:0;
+}
+#navbar-header{
+	height:100%;
+}
+.navbar-brand{
+	height: 100%;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+div>a{
+	height:100%;
+	width: 100%;
+}
+.navbar-default .navbar-nav>li>a, #navHomeButton>a {
+	color:#000;
+	font-weight: bold;
+	background-color: transparent;
+}
+li>a:hover{
+	border: solid 2px #fff;
+	border-radius:3px;
+	cursor: pointer;
+	color: #fff !important;
+}
+li:hover{
+	background-color:#616161;
+	opacity: 0.8;
+	border-radius: 3px;
+}
+/**<!--MAIN CONTENT-->**/
+#title{
+	margin-bottom: 20px;
+	color: #000;
+	position: relative;
+	font-family: 'Roboto Mono', monospace;
+}
+.main-content{
+	height: 100%;
+}
+.main-content>#title>h1{
+	margin: 70px 0px 0px 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#home-tiles{
+	padding: auto;
+	margin: Auto;
+	width: 80%;
+	font-family: 'Roboto Mono', monospace;
+}
+#home-tiles>div{
+	padding: 0 30px 0;
+	margin: auto;
+}
+.box{
+	border: 0px;
+	background-color: black;
+	height: 50px;
+	width: 175px;
+	opacity: 0.6;
+	padding: auto;
+	position:relative;
+	margin: auto;
+}
+.box:hover{
+	border: solid 1px;
+	border-color: #fff;
+}
+.box>span{
+	color: #fff;
+}
+a:focus, a:hover{
+	text-decoration: none;
+}
+a>div>span{
+	background-color: transparent;
+	color: #fff;
+	margin: 5px;
+	padding: 7px 5px;
+	font-size: 1.5em;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	top: 10px;
+	font-family: 'Roboto Mono', monospace;
+}
+/**Footer content**/
+footer {
+	position: fixed;
+    bottom: 0;
+	height: 100px;
+	width: 100%;
+	background-color: transparent;
+}
+.panel-footer{
+	background-color: transparent;
+	padding-top:5px;
+	color: #000;
+	border-top: 0px;
+}
+h4{
+	margin-bottom: 0;
+	margin-top: 0;
+	color: #000;
+	font-size: 1.1em;
+}
+section{
+	font-size: 0.85em;
+	color: #000;
+	postion: relative;
+	height: 78px;
+	font-weight: bold;
+}
+section>div{
+	position: relative;
+	top: 40px;
+	font-weight: 100;
+}
+section>a{
+	color: #000;
+}
+/**Media Queries**/
+@media (min-width: 768px){
+#myVideo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 960px;
+}
+}
+
+
+@media (max-width: 767px){
+#header-nav>div{
+	height: auto;
+	postion: absolute;
+}
+.main-content{
+	clear: both;
+	position: relative;
+}
+.background{
+	position: fixed;
+	height: auto;
+}
+footer{
+	position: relative;
+	height: auto;
+}
+footer section{
+	postion: relative;
+	text-align: center;
+	clear: both;
+	height: auto;
+}
+.box{
+	width: 95%;
+	margin-bottom: 5px;
+}
+}
